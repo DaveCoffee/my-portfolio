@@ -1,0 +1,50 @@
+html {
+    background-color: teal;
+}
+
+
+
+
+body {
+    padding: 0;
+    margin: 5px auto;
+    width: 80%;
+    background-color: beige;
+    font-size: 125%;
+
+
+}
+header {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px 0;
+}
+
+header h2 {
+    color: white;
+}
+/*********
+nav
+*********/
+ul {
+
+    background-color: crimson;
+    height: 3rem;
+    display: flex;
+}
+
+li {
+
+    list-style: none;
+    margin-right: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
