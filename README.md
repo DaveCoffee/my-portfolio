@@ -1,6 +1,8 @@
-# My Journey to mastering Web development
+# README File
 
-## My order of learning
+## My Journey to mastering Web development
+
+### My order of learning
 
 1 HTML
 2 CSS
