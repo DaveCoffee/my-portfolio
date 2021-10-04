@@ -1,5 +1,6 @@
 html {
     background-color: teal;
+ 
 }
 
 
@@ -8,21 +9,22 @@ html {
 body {
     padding: 0;
     margin: 5px auto;
-    width: 80%;
-    background-color: beige;
+    width: 100%;
     font-size: 125%;
+    
 
 
 }
 header {
     text-align: center;
     background-color: cadetblue;
-    padding: 10px 0;
+    width: 50%;
+    color: white;
+    opacity: 90%;
+    padding: 50px;
+    margin: 200px auto;
 }
 
-header h2 {
-    color: white;
-}
 /*********
 nav
 *********/
@@ -31,6 +33,7 @@ ul {
     background-color: crimson;
     height: 3rem;
     display: flex;
+    justify-content: right;
 }
 
 li {
@@ -42,9 +45,20 @@ li {
 a {
     text-decoration: none;
     color: white;
+
+}
+
+.current {
+    text-decoration: 5px  underline black;
+    margin-top: 5px;
+
 }
 
 a:hover {
     color: yellowgreen;
+}
+
+button {
+    padding: .3em 3em;
 }
 
