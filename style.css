@@ -1,64 +1,53 @@
 html {
-    background-color: teal;
- 
+  background-color: teal;
 }
-
-
-
 
 body {
-    padding: 0;
-    margin: 5px auto;
-    width: 100%;
-    font-size: 125%;
-    
-
-
+  padding: 0;
+  margin: 5px auto;
+  width: 100%;
+  font-size: 125%;
 }
 header {
-    text-align: center;
-    background-color: cadetblue;
-    width: 50%;
-    color: white;
-    opacity: 90%;
-    padding: 50px;
-    margin: 200px auto;
+  text-align: center;
+  background-color: cadetblue;
+  width: 50%;
+  color: white;
+  opacity: 90%;
+  padding: 50px;
+  margin: 200px auto;
 }
 
 /*********
 nav
 *********/
 ul {
-
-    background-color: crimson;
-    height: 3rem;
-    display: flex;
-    justify-content: right;
+  height: 3rem;
+  display: flex;
 }
 
 li {
-
-    list-style: none;
-    margin-right: 1em;
+  list-style: none;
+  margin-right: 1em;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
 }
 
 .current {
-    text-decoration: 5px  underline black;
-    margin-top: 5px;
-
+  text-decoration: 5px underline black;
+  margin-top: 5px;
 }
 
 a:hover {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 button {
-    padding: .3em 3em;
+  padding: 0.3em 3em;
 }
-
