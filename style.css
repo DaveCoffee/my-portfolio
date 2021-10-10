@@ -2,9 +2,8 @@
 Body
 ***************/
 body {
-  width: 100%;
-  height: 500px;
-  background-color: #59544b;
+  width: 90%;
+  background-color: #2a9d8f;
 }
 
 /****************
@@ -24,6 +23,10 @@ nav a {
   text-decoration: none;
   margin-right: 1em;
   color: white;
+}
+
+nav a:hover {
+  color: #264653;
 }
 
 /****************
@@ -46,7 +49,7 @@ main {
 }
 
 main a {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 1em 2em;
   font-size: 2rem;
   text-decoration: none;
